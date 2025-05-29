@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ultimate RPG</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <div id="ui">
+    <div id="hud">
+      <div id="level">Level: 1</div>
+      <div id="health">❤️ 100</div>
+      <div id="mana">💧 50</div>
+      <div id="coins">💰 0</div>
+    </div>
+    <div id="dialog" class="hidden">
+      <p id="dialogText">...</p>
+      <button onclick="closeDialog()">Close</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+<script src="quests.js"></script>
+<script src="inventory.js"></script>
+<script src="shop.js"></script>
+<script src="cutscenes.js"></script>
+</body>
+</html>
